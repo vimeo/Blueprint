@@ -2,7 +2,9 @@
 
 aka **How We Collaborate** :zap:
 
-This document is an overview of the Mobile and TV Group's product development process. It describes why process is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints).
+##Overview
+
+This document is an overview of the Vimeo Mobile and TV Group's product development process. It describes why process is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints).
 
 Why is process important? Process helps us:
  
