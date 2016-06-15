@@ -20,7 +20,7 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
 
-The goal of a team is to produce meaningful, high quality work at a predictable pace<sup>[1](#pace)</sup>.
+The goal of a team is to produce meaningful, high quality work at a predictable [pace](#notes).
  
 ##Workflow
  
@@ -36,7 +36,7 @@ We solicit feedback early, ask questions often, and document and share what we l
  
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help us establish pace<sup id="a1">[1](#n1)</sup>.
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help us establish [pace](#notes).
  
 Before beginning a sprint we:
  
@@ -50,6 +50,6 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 ####Notes
 
-<b id="n1">1</b>To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).[↩](#a1)
+Pace - To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
 
 
