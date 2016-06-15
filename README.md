@@ -48,7 +48,7 @@ Before beginning a sprint we:
  
 After finishing a sprint we hold a retrospective to discuss what went well, what went poorly, and what we decide to do differently next sprint.
 
-####Notes
+##Notes
 
 Pace - To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
 
