@@ -2,12 +2,6 @@
 
 aka **How We Collaborate** :zap:
 
-[Overview](#overview)    
-[Team](#team)    
-[Workflow](#workflow)    
-[Sprints](#sprints)    
-[Notes](#notes)    
-
 ##Overview
 
 This document is an overview of the Vimeo Mobile and TV Group's product development process. It describes why process is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints).
