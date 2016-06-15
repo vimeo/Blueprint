@@ -1,21 +1,15 @@
 # Blueprint
 
-Mobile & TV Group - How We Collaborate (v1.0 - 6/11/2016)
+aka **How We Collaborate** :zap:
+
+This document is an overview of the Mobile and TV Group's product development process. It describes why process is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints).
+
+Why is process important? Process helps us:
  
- 
- 
-This document is an overview of the Mobile and TV Group process. It describes why product development process is important and outlines three aspects of our process: team, workflow, and sprints. Note: Because we critique and revise our process each sprint, this document will change over time.
- 
-Why is process important?
- 
-Process helps us:
- 
-1. Advance the quality and stability of the software we make,
+1. Advance the quality and stability of the software we make, and
 2. Promote the development of an extraordinary team.
  
- 
- 
-Team
+##Team
  
 [Diagram]
 Team composition
@@ -24,9 +18,7 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
  
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. The goal of a team is to produce meaningful, high quality work at a predictable pace.
  
- 
- 
-Workflow
+##Workflow
  
 Our workflow is a structured approach to how a team evolves an idea from inception to production.
  
@@ -39,9 +31,7 @@ An idea moves from one function to the next when the current function's output h
  
 We solicit feedback early, ask questions often, and document and share what we learn along the way.
  
- 
- 
-Sprints
+##Sprints
  
 Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help us to deliver high quality work at a predictable pace.
  
