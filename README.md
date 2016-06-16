@@ -26,7 +26,7 @@ The goal of a team is to produce meaningful, high quality work at a predictable 
  
 Workflow is a structured approach to how a team evolves an idea from inception to production.
  
-![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-gant-chart.png)    
+![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
 *Workflow and deliverables*
  
 Teams evolve each idea one function at a time, with each function’s output being the next function’s input. Product defines the initial requirements, design uses these to define the UX and UI, engineering builds from design's blueprints, and QA determines whether the build meets our expectations.
