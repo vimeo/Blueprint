@@ -14,13 +14,13 @@ aka **How We Collaborate** :zap:
 
 ##Overview
 
-This document is an overview of the [Vimeo Mobile and TV Group's<sup>1</sup>](#notes) product development process. It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
+This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process. It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
 
 ##Why Process?
 
 Process helps us to:
  
-1. Produce high quality work at a predictable [pace<sup>2</sup>](#notes), 
+1. Produce high quality work at a predictable [pace](#notes)<sup>2</sup>, 
 3. Promote the development of an extraordinary team.
  
 ##Team
@@ -32,7 +32,7 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
 
-The goal of a team is to produce meaningful, high quality work at a predictable [pace<sup>2</sup>](#notes).
+The goal of a team is to produce meaningful, high quality work at a predictable [pace](#notes)<sup>2</sup>.
  
 ##Workflow
  
@@ -47,11 +47,11 @@ Consider an example. **Idea A** might be the following user story: *"As a user, 
 
 The idea moves from one function to the next only when the current function's output has been reviewed and approved by each of the other functions. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
  
-We solicit feedback early, ask questions often, and [document and share what we learn<sup>3</sup>](#notes) along the way.
+We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way.
  
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace<sup>2</sup>](#notes).
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace](#notes)<sup>2</sup>.
  
 Before beginning a sprint we:
  
@@ -64,7 +64,7 @@ Before beginning a sprint we:
 ![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
 
-During a sprint we track progress using a [scrum or kanban-like board<sup>4</sup>](#notes) with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
+During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>4</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
 
 After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint. This is also the perfect time to adjust the process to better suit our needs. 
 
