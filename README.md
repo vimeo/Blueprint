@@ -64,7 +64,7 @@ Before beginning a sprint we:
 
 During a sprint we track progress using a [scrum or kanban-like board<sup>4</sup>](#notes) with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
 
-After finishing a sprint we hold a retrospective to discuss what went well, what went poorly, and what we decide to do differently next sprint.
+After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint.
 
 ##Notes
 
