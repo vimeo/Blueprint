@@ -76,8 +76,10 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 ##Contributors
 
 Ryan Casey    
+Brian Cooper   
 Alfie Hanssen    
 Jason Hawkins  
+Aaron Hedges  
 Julie Ho    
 Rob Huebner  
 Will Hutson  
@@ -89,6 +91,7 @@ Anthony Restaino
 Howard Rigberg    
 Jon Sheldrick    
 Dina Solovey   
+Kenya Stewart   
 Andy Thompson    
 Will True    
 Mike Westendorf    
