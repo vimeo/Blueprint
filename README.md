@@ -14,7 +14,7 @@ aka **How We Collaborate** :zap:
 
 ##Overview
 
-This document is an overview of the Vimeo Mobile and TV Group's product development process. It describes [why process is important](#why-process) and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints).
+This document is an overview of the [Vimeo Mobile and TV Group's<sup>1</sup>](#notes) product development process. It describes [why process is important](#why-process) and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics to leave room for interpretation. 
 
 ##Why Process?
 
@@ -32,7 +32,7 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
 
-The goal of a team is to produce meaningful, high quality work at a predictable [pace<sup>1</sup>](#notes).
+The goal of a team is to produce meaningful, high quality work at a predictable [pace<sup>2</sup>](#notes).
  
 ##Workflow
  
@@ -45,11 +45,11 @@ Teams evolve each idea one function at a time, with each function’s output bei
 
 An idea moves from one function to the next when the current function's output has been reviewed and approved by each of the other functions. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
  
-We solicit feedback early, ask questions often, and document and share what we learn along the way.
+We solicit feedback early, ask questions often, and [document and share what we learn<sup>3</sup>](#notes) along the way.
  
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace<sup>1</sup>](#notes).
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace<sup>2</sup>](#notes).
  
 Before beginning a sprint we:
  
@@ -59,13 +59,16 @@ Before beginning a sprint we:
 4. Assign an estimate to each chunk, and
 5. Commit to a specific set of chunks by using our historical velocity to calculate per-person point commitments.
 
-During a sprint we track progress using a scrum or kanban board with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
+During a sprint we track progress using a [scrum or kanban-like board<sup>4</sup>](#notes) with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
 
 After finishing a sprint we hold a retrospective to discuss what went well, what went poorly, and what we decide to do differently next sprint.
 
 ##Notes
 
-1. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
+1. At the time of writing, the Vimeo Mobile & TV Group is comprised of roughly 20 people. 
+2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
+3. We use Confluence for most documentation.
+4. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
 
 ##Contributors
 
