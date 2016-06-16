@@ -26,8 +26,8 @@ The goal of a team is to produce meaningful, high quality work at a predictable 
  
 Workflow is a structured approach to how a team evolves an idea from inception to production.
  
-[Diagram]    
-*Workflow stages and deliverables*
+![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-gant-chart.png)    
+*Workflow and deliverables*
  
 Teams evolve each idea one function at a time, with each function’s output being the next function’s input. Product defines the initial requirements, design uses these to define the UX and UI, engineering builds from design's blueprints, and QA determines whether the build meets our expectations.
  
@@ -37,11 +37,8 @@ We solicit feedback early, ask questions often, and document and share what we l
  
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help us establish [pace](#notes).
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace](#notes).
  
-![Sprint gant chart](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-gant-chart.png)    
-*Sprint gant chart*
-
 Before beginning a sprint we:
  
 1. Assemble a rough list of stories that we would like to include in the sprint,
@@ -49,7 +46,9 @@ Before beginning a sprint we:
 3. Break each story into small, actionable chunks,
 4. Assign an estimate to each chunk, and
 5. Commit to a specific set of chunks by using our historical velocity to calculate per-person point commitments.
- 
+
+During a sprint we track progress using a scrum or kanban board with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
+
 After finishing a sprint we hold a retrospective to discuss what went well, what went poorly, and what we decide to do differently next sprint.
 
 ##Notes
