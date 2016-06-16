@@ -43,6 +43,8 @@ Teams evolve each idea one function at a time, with each function’s output bei
 ![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
 <sup>*Workflow and deliverables*</sup>
 
+Consider an example: "As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app." The team's product manager creates a document detailing the feature requirements. The team's designer uses this document to generate wireframes, visuals, etc. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and either reports back with bugs found or approves it for deployment. 
+
 An idea moves from one function to the next when the current function's output has been reviewed and approved by each of the other functions. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
  
 We solicit feedback early, ask questions often, and [document and share what we learn<sup>3</sup>](#notes) along the way.
