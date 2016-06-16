@@ -26,7 +26,8 @@ The goal of a team is to produce meaningful, high quality work at a predictable 
  
 Workflow is a structured approach to how a team evolves an idea from inception to production.
  
-[Diagram] Workflow stages and deliverables
+[Diagram]    
+*Workflow stages and deliverables*
  
 Teams evolve each idea one function at a time, with each function’s output being the next function’s input. Product defines the initial requirements, design uses these to define the UX and UI, engineering builds from design's blueprints, and QA determines whether the build meets our expectations.
  
@@ -38,6 +39,9 @@ We solicit feedback early, ask questions often, and document and share what we l
  
 Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help us establish [pace](#notes).
  
+[Diagram]    
+*Sprint gant chart*
+
 Before beginning a sprint we:
  
 1. Assemble a rough list of stories that we would like to include in the sprint,
