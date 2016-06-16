@@ -18,7 +18,7 @@ This document is an overview of the [Vimeo Mobile and TV Group's<sup>1</sup>](#n
 
 ##Why Process?
 
-Why is process important? Process helps us to:
+Process helps us to:
  
 1. Produce high quality work at a predictable [pace<sup>2</sup>](#notes), 
 3. Promote the development of an extraordinary team.
