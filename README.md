@@ -54,22 +54,22 @@ Pace - To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) a
 
 ##Contributors
 
-Ryan Casey
-Alfie Hanssen
-Jason Hawkins
-Julie Ho
-Rob Huebner
-Gavin King
-Nicole Lehrer
-Stephen Levinson
-Toan Pham
-Anthony Restaino
-Howard Rigberg
-Jon Sheldrick
-Dina Solovey
-Andy Thompson
-Will True
-Mike Westendorf
-Kyle Venn
-Kevin Zetterstrom
+Ryan Casey    
+Alfie Hanssen    
+Jason Hawkins    
+Julie Ho    
+Rob Huebner    
+Gavin King    
+Nicole Lehrer    
+Stephen Levinson    
+Toan Pham    
+Anthony Restaino    
+Howard Rigberg    
+Jon Sheldrick    
+Dina Solovey    
+Andy Thompson    
+Will True    
+Mike Westendorf    
+Kyle Venn    
+Kevin Zetterstrom    
 
