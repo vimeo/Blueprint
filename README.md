@@ -68,7 +68,7 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 1. At the time of writing, the Vimeo Mobile & TV Group is comprised of roughly 20 people. 
 2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
-3. We use Confluence for most documentation.
+3. We use Confluence for most documentation, but any wiki-like tool will do.
 4. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
 
 ##Contributors
