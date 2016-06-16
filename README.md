@@ -4,13 +4,13 @@ aka **How We Collaborate** :zap:
 
 ##Contents
 
-[Overview](#overview)
-[Why Process?](#why-process)
-[Team](#team)
-[Workflow](#workflow)
-[Sprints](#sprints)
-[Notes](#notes)
-[Contributors](#contributors)
+[Overview](#overview)  
+[Why Process?](#why-process)  
+[Team](#team)  
+[Workflow](#workflow)  
+[Sprints](#sprints)  
+[Notes](#notes)  
+[Contributors](#contributors)  
 
 ##Overview
 
