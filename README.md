@@ -14,14 +14,15 @@ aka **How We Collaborate** :zap:
 
 ##Overview
 
-This document is an overview of the [Vimeo Mobile and TV Group's<sup>1</sup>](#notes) product development process. It describes [why process is important](#why-process) and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics to leave room for interpretation. 
+This document is an overview of the [Vimeo Mobile and TV Group's<sup>1</sup>](#notes) product development process. It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply as they see fit. 
 
 ##Why Process?
 
 Why is process important? Process helps us to:
  
-1. Advance the quality and stability of the software we make, and
-2. Promote the development of an extraordinary team.
+1. Advance the quality and stability of the products we make, 
+2. Establish pace in order to...,
+3. Promote the development of an extraordinary team.
  
 ##Team
  
