@@ -41,12 +41,12 @@ Workflow is a structured approach to how a team evolves an idea from inception t
  
 Teams evolve each idea one function at a time, with each function’s output being the next function’s input. Product defines the initial requirements, design uses these to define the UX and UI, engineering builds from design's blueprints, and QA determines whether the build meets our expectations.
 
-<br><br>
+<br>
 
 ![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
 <sup>*Workflow and deliverables*</sup>
 
-<br><br>
+<br>
 
 An idea moves from one function to the next when the current function's output has been reviewed and approved by each of the other functions. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
  
