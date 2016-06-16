@@ -58,7 +58,7 @@ Before beginning a sprint we:
 1. Assemble a rough list of stories that we would like to include in the sprint,
 2. Assign each story to a team member,
 3. Break each story into small, actionable chunks,
-4. Assign an estimate to each chunk, and
+4. Estimate the amount of effort required to complete each chunk, and
 5. Commit to a specific set of chunks by using our historical velocity to calculate per-person point commitments.
 
 ![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
