@@ -39,7 +39,7 @@ We solicit feedback early, ask questions often, and document and share what we l
  
 Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help us establish [pace](#notes).
  
-[Diagram]    
+![Sprint gant chart](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-gant-chart.png)    
 *Sprint gant chart*
 
 Before beginning a sprint we:
