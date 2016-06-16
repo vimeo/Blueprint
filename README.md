@@ -2,9 +2,21 @@
 
 aka **How We Collaborate** :zap:
 
+##Contents
+
+[Overview](#overview)
+[Why Process?](#why-process)
+[Team](#team)
+[Workflow](#workflow)
+[Sprints](#sprints)
+[Notes](#notes)
+[Contributors](#contributors)
+
 ##Overview
 
 This document is an overview of the Vimeo Mobile and TV Group's product development process. It describes why process is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints).
+
+##Why Process?
 
 Why is process important? Process helps us to:
  
@@ -16,18 +28,18 @@ Why is process important? Process helps us to:
 A product team is a co-located, cross-functional group of roughly 4-7 people who collaborate to bring ideas to life. Co-location facilitates communication. Cross-functionality fosters autonomy and self-sufficiency. Limiting team size promotes ownership.
  
 ![Team composition](https://github.com/vimeo/Blueprint/blob/working-draft/assets/team-composition.png)    
-*Team composition*
+<sup>*Team composition*</sup>
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
 
-The goal of a team is to produce meaningful, high quality work at a predictable [pace](#notes).
+The goal of a team is to produce meaningful, high quality work at a predictable [pace<sup>1</sup>](#notes).
  
 ##Workflow
  
 Workflow is a structured approach to how a team evolves an idea from inception to production.
  
 ![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
-*Workflow and deliverables*
+<sup>*Workflow and deliverables*</sup>
  
 Teams evolve each idea one function at a time, with each function’s output being the next function’s input. Product defines the initial requirements, design uses these to define the UX and UI, engineering builds from design's blueprints, and QA determines whether the build meets our expectations.
  
@@ -37,7 +49,7 @@ We solicit feedback early, ask questions often, and document and share what we l
  
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace](#notes).
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace<sup>1</sup>](#notes).
  
 Before beginning a sprint we:
  
@@ -53,7 +65,7 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 ##Notes
 
-Pace - To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
+1. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
 
 ##Contributors
 
