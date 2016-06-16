@@ -14,7 +14,7 @@ aka **How We Collaborate** :zap:
 
 ##Overview
 
-This document is an overview of the [Vimeo Mobile and TV Group's<sup>1</sup>](#notes) product development process. It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply as they see fit. 
+This document is an overview of the [Vimeo Mobile and TV Group's<sup>1</sup>](#notes) product development process. It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
 
 ##Why Process?
 
