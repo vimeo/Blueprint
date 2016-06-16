@@ -75,9 +75,10 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 Ryan Casey    
 Alfie Hanssen    
-Jason Hawkins    
+Jason Hawkins  
 Julie Ho    
-Rob Huebner    
+Rob Huebner  
+Will Hutson  
 Gavin King    
 Nicole Lehrer    
 Stephen Levinson    
@@ -85,7 +86,7 @@ Toan Pham
 Anthony Restaino    
 Howard Rigberg    
 Jon Sheldrick    
-Dina Solovey    
+Dina Solovey   
 Andy Thompson    
 Will True    
 Mike Westendorf    
