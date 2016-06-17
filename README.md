@@ -38,15 +38,15 @@ The goal of a team is to produce meaningful, high quality work at a predictable 
  
 Workflow is a structured approach to how a team evolves an idea from inception to production.
  
-Teams evolve each idea one function at a time, with each function’s output being the next function’s input. Product defines the initial requirements, design uses these to define the UX and UI, engineering builds from design's blueprints, and QA determines whether the build meets our expectations.
+Teams evolve each idea one function at a time, with each function’s output being the next function’s input. 
 
 ![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
 <sup>*Workflow and deliverables*</sup>
 
 Consider an example. **Idea A** might be the following user story: *"As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app."* The team's product manager creates a document detailing the feature requirements. The team's designer uses this document to generate wireframes, visuals, etc. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and either reports back with bugs found or approves it for deployment. 
 
-The idea moves from one function to the next only when the current function's output has been reviewed and approved by each of the other functions. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
- 
+The idea moves from one function to the next only when the current function's output has been reviewed and approved by each of the other functions. Approving an output means that it contains all info necessary for it to advance to the next stage. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
+
 We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way.
  
 ##Sprints
