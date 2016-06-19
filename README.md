@@ -51,6 +51,9 @@ We solicit feedback early, ask questions often, and [document and share what we 
  
 Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace](#notes)<sup>2</sup>.
  
+![Sprint workflow](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow-with-sprints.png)    
+<sup>*Sprint workflow*</sup>
+
 Before beginning a sprint we:
  
 1. Assemble a rough list of stories that we would like to include in the sprint,
