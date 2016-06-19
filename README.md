@@ -41,7 +41,7 @@ Workflow is a structured approach to how a team evolves an idea from inception t
 ![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
 <sup>*Workflow and deliverables*</sup>
 
-Consider an example where the idea we're working on is, *"As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app."* The team's product manager creates a document detailing the feature requirements. The team's designer uses this document to generate wireframes, visuals, etc. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and either reports back with bugs found or approves it for deployment. 
+Consider an example where the idea we're working on is captured by this user story: *"As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app."* The team's product manager creates a document detailing the feature requirements. The team's designer uses this document to generate wireframes, visuals, etc. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and either reports back with bugs found or approves it for deployment. 
 
 The idea moves from one function to the next only when the current function's output has been reviewed and approved by each of the other functions. Approving an output means that it contains all info necessary for it to advance to the next stage. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
 
@@ -49,14 +49,14 @@ We solicit feedback early, ask questions often, and [document and share what we 
  
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve an idea. Sprints help teams establish [pace](#notes)<sup>2</sup>.
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>.
  
 ![Sprint workflow](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow-with-sprints.png)    
 <sup>*Sprint workflow*</sup>
 
-Before beginning a sprint we:
+Before beginning a sprint to:
  
-1. Assemble a rough list of stories that we would like to include in the sprint,
+1. Assemble a rough list of stories to be included in the sprint (a mix of feature, bug, tech debt and other story types),
 2. Assign each story to a team member,
 3. Break each story into small, actionable chunks,
 4. Estimate the amount of effort required to complete each chunk, and
