@@ -62,7 +62,7 @@ Before beginning a sprint to:
 4. Estimate the amount of effort required to complete each chunk, and
 5. Commit to a specific subset of chunks by using our historical team velocity to calculate how much each person should take on.
 
-![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning-process.png)    
+![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
 
 During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>4</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
