@@ -54,7 +54,7 @@ Sprints are structured 2-week intervals at which a team executes the above workf
 ![Sprint workflow](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow-with-sprints.png)    
 <sup>*Sprint workflow*</sup>
 
-Before beginning a sprint to:
+Before beginning a sprint we:
  
 1. Assemble a rough list of stories to be included in the sprint (a mix of feature, bug, tech debt and other story types),
 2. Assign each story to a team member,
