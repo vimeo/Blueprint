@@ -54,13 +54,13 @@ Sprints are structured 2-week intervals at which a team executes the above workf
 ![Sprint workflow](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow-with-sprints.png)    
 <sup>*Sprint workflow*</sup>
 
-Before beginning a sprint we:
+Before beginning a sprint:
  
-1. Assemble a rough list of stories to be included in the sprint (a mix of feature, bug, tech debt and other story types),
-2. Assign each story to a team member,
-3. Break each story into small, actionable chunks,
-4. Estimate the amount of effort required to complete each chunk, and
-5. Commit to a specific subset of chunks by using our historical team velocity to calculate how much each person should take on.
+1. We assemble a rough list of stories to be included in the sprint (a mix of product, design, dev, and qa stories),
+2. We determine who will work on each story (via self-selection rather than top-down assignment), 
+3. Assignees break each of their stories into small, actionable chunks,
+4. We estimate the amount of effort required to complete each chunk (via [planning poker](#notes)<sup>5</sup>), and
+5. We commit to a specific subset of chunks by using our historical team [velocity](#notes)<sup>6</sup> to calculate how much each person should take on.
 
 ![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
@@ -75,6 +75,8 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
 3. We use Confluence for most documentation, but any wiki-like tool will do.
 4. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
+5. [Planning poker](https://en.wikipedia.org/wiki/Planning_poker)
+6. [Velocity tracking](https://en.wikipedia.org/wiki/Velocity_(software_development))
 
 ##Contributors
 
