@@ -25,7 +25,7 @@ Process helps us to:
  
 ##Team
  
-A product team is a co-located, cross-functional group of roughly 4-7 people who collaborate to bring ideas to life. Sitting adjacent to one another facilitates communication. Cross-functionality fosters autonomy and self-sufficiency. Limiting team size promotes ownership.
+A product team is a co-located, cross-functional group of roughly 4-7 people who collaborate to bring ideas to life. Proximity builds relationships. Cross-functionality fosters autonomy and self-sufficiency. Limiting team size promotes ownership.
  
 ![Team composition](https://github.com/vimeo/Blueprint/blob/working-draft/assets/team-composition.png)    
 <sup>*Team composition*</sup>
