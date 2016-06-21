@@ -51,32 +51,29 @@ These checks and balances increase our chances of success and predictability by 
 
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>.
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>. Pace is valuable because it allows us to predict how long things will take in the short and long term. 
  
 ![Sprint workflow](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow-with-sprints.png)    
 <sup>*Sprint workflow*</sup>
 
 Before beginning a sprint:
  
-
-
-
-An important part of our process is figuring out how much we can accomplish as a team and being able to predict how long things will take in the short and long term. Assigning points to a story is one part of that (covered in doc), but determining the appropriate number of points to people for a sprint is the other important part (not covered in doc). In general, the theme of estimation and its value can be highlighted a bit more throughout the doc. As an example, I think you could fill out the description of what happens when we finish a sprint a little bit more. It would be helpful to talk a little bit about how we close out the sprint, carry out/ carry in, point estimation, etc. Some of that is in flux for us at the moment, but it is worth talking about regardless.
- 
- 
- 
 1. We assemble a rough list of stories to be included in the sprint (a mix of product, design, dev, and qa stories),
 2. We determine who will work on each story (via self-selection rather than top-down assignment), 
 3. Assignees break each of their stories into small, actionable chunks,
 4. We estimate the amount of effort required to complete each chunk (via [planning poker](https://en.wikipedia.org/wiki/Planning_poker)), and
-5. We commit to a specific subset of chunks by using our historical team [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development) to calculate how much each person should take on.
+5. We commit to a specific subset of chunks by using our historical team [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development) and the [Pace apps](#notes)<sup>2</sup> to calculate how much each person should take on.
 
 ![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
 
 During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>4</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
 
-After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint. This is also the perfect time to adjust the process to better suit our needs. 
+[still editing]
+After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint. In doing so we examine our [burndown chart](https://en.wikipedia.org/wiki/Burn_down_chart) to gain insight into the accuracy of our estimates, whether we modified the sprint commitment  
+[still editing]
+
+Retrospective is also the perfect time to adjust the process to better suit our needs. 
 
 ##Notes
 
