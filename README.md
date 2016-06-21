@@ -41,13 +41,15 @@ Workflow is a structured approach to how a team evolves an idea from inception t
 ![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
 <sup>*Workflow and deliverables*</sup>
 
-Consider an example where the idea we're working on is captured by this user story: *"As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app."* The team's product manager creates a document detailing the feature requirements. The team's designer uses this document to generate wireframes, visuals, etc. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and either reports back with bugs found or approves it for deployment. 
+Consider an example where the idea we're working on is captured by this user story: *"As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app."* The team's product manager creates a feature spec. The team's designer uses this spec to generate visuals. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and documents any bugs that surface. Based on QA's test results we determine whether the build is shippable. 
 
-The idea moves from one function to the next only when the current function's output has been reviewed and approved by each of the other functions. When an output is approved this means that it contains all info necessary for it to advance to the next stage. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
+Each function's output must be reviewed and approved by the other functions before it can advance to the next stage. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
 
-This is our ideal workflow. In practice the boundaries are softer and the communication more fluid. We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way. No matter how the workflow is applied the emphasis is on discussion across disciplines and platforms early and often (e.g. product specs out a feature, design identifies potential conceptual inconsistencies, engineering identifies technical limitations, product updates the spec, and so on). 
+This is our ideal workflow. In practice the boundaries are softer and the communication more fluid. No matter how the workflow is applied the emphasis is on discussion across functions and platforms early and often (e.g. product specs out a feature, design identifies potential conceptual inconsistencies, engineering identifies technical limitations, product updates the spec, and so on). 
 
 These checks and balances increase our chances of success and predictability by helping us abstract and define problems better and therefore making us less likely to encounter issues down the line. However, problems are not always avoidable and this is where a willingness to engage in iterative design is important.
+
+We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way. 
 
 ##Sprints
  
@@ -69,11 +71,7 @@ Before beginning a sprint:
 
 During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>4</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
 
-[still editing]
-After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint. In doing so we examine our [burndown chart](https://en.wikipedia.org/wiki/Burn_down_chart) to gain insight into the accuracy of our estimates, whether we modified the sprint commitment  
-[still editing]
-
-Retrospective is also the perfect time to adjust the process to better suit our needs. 
+After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint. Part of retrospective involves examining our [burndown chart](https://en.wikipedia.org/wiki/Burn_down_chart)to gauge the accuracy of our estimates and inform how we estimate and commit to the next sprint's tasks. Retrospective is also the perfect time to adjust the process to better suit our needs. 
 
 ##Notes
 
