@@ -27,7 +27,7 @@ Process helps us to:
  
 A product team is a co-located, cross-functional group of roughly 4-7 people who collaborate to bring ideas to life. Proximity builds relationships. Cross-functionality fosters autonomy and self-sufficiency. Limiting team size promotes ownership.
  
-![Team composition](https://github.com/vimeo/Blueprint/assets/team-composition.png)    
+![Team composition](/assets/team-composition.png)    
 <sup>*Team composition*</sup>
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
@@ -38,7 +38,7 @@ The goal of a team is to produce meaningful, high quality work at a predictable 
  
 Workflow is a structured approach to how a team evolves an idea from inception to production. Teams evolve each idea one function at a time, with each function’s output being the next function’s input. 
 
-![Workflow and deliverables](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow.png)    
+![Workflow and deliverables](/assets/workflow.png)    
 <sup>*Workflow and deliverables*</sup>
 
 Consider an example where the idea we're working on is captured by this user story: *"As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app."* The team's product manager creates a feature spec. The team's designer uses this spec to generate visuals. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and documents any bugs that surface. Based on QA's test results we determine whether the build is shippable. 
@@ -55,7 +55,7 @@ We solicit feedback early, ask questions often, and [document and share what we 
  
 Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>. Pace is valuable because it allows us to predict how long things will take in the short and long term. 
  
-![Sprint workflow](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow-with-sprints.png)    
+![Sprint workflow](/assets/workflow-with-sprints.png)    
 <sup>*Sprint workflow*</sup>
 
 Before beginning a sprint:
@@ -66,7 +66,7 @@ Before beginning a sprint:
 4. We estimate the amount of effort required to complete each chunk (via [planning poker](https://en.wikipedia.org/wiki/Planning_poker)), and
 5. We commit to a specific subset of chunks by using our historical team [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development) and the [Pace apps](#notes)<sup>2</sup> to calculate how much each person should take on.
 
-![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
+![Sprint planning](/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
 
 During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>4</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
