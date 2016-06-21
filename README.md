@@ -65,7 +65,7 @@ Before beginning a sprint:
 ![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
 
-![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.svg)    
+![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.pdf)    
 <sup>*Sprint planning*</sup>
 
 During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>8</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
