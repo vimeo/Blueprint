@@ -14,13 +14,13 @@ aka **How We Collaborate** :zap:
 
 ##Overview
 
-This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on the [scrum](#notes)<sup>2</sup> and [agile](#notes)<sup>3</sup> methodologies). It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
+This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on the [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
 
 ##Why Process?
 
 Process helps us to:
  
-1. Produce high quality work at a predictable [pace](#notes)<sup>4</sup>, 
+1. Produce high quality work at a predictable [pace](#notes)<sup>2</sup>, 
 3. Promote the development of an extraordinary team.
  
 ##Team
@@ -32,7 +32,7 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
 
-The goal of a team is to produce meaningful, high quality work at a predictable [pace](#notes)<sup>4</sup>.
+The goal of a team is to produce meaningful, high quality work at a predictable [pace](#notes)<sup>2</sup>.
  
 ##Workflow
  
@@ -43,42 +43,47 @@ Workflow is a structured approach to how a team evolves an idea from inception t
 
 Consider an example where the idea we're working on is captured by this user story: *"As a user, I'd like to be able to upload videos to Vimeo from within the Vimeo iOS app."* The team's product manager creates a document detailing the feature requirements. The team's designer uses this document to generate wireframes, visuals, etc. The team's developer uses the product and design documentation to build the upload feature. And the team's QA representative tests the resulting build and either reports back with bugs found or approves it for deployment. 
 
-The idea moves from one function to the next only when the current function's output has been reviewed and approved by each of the other functions. Approving an output means that it contains all info necessary for it to advance to the next stage. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
+The idea moves from one function to the next only when the current function's output has been reviewed and approved by each of the other functions. When an output is approved this means that it contains all info necessary for it to advance to the next stage. This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
 
-We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>5</sup> along the way.
- 
+This is our ideal workflow. In practice the boundaries are softer and the communication more fluid. We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way. No matter how the workflow is applied the emphasis is on discussion across disciplines and platforms early and often (e.g. product specs out a feature, design identifies potential conceptual inconsistencies, engineering identifies technical limitations, product updates the spec, and so on). 
+
+These checks and balances increase our chances of success and predictability by helping us abstract and define problems better and therefore making us less likely to encounter issues down the line. However, problems are not always avoidable and this is where a willingness to engage in iterative design is important.
+
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>4</sup>.
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>.
  
 ![Sprint workflow](https://github.com/vimeo/Blueprint/blob/working-draft/assets/workflow-with-sprints.png)    
 <sup>*Sprint workflow*</sup>
 
 Before beginning a sprint:
  
+
+
+
+An important part of our process is figuring out how much we can accomplish as a team and being able to predict how long things will take in the short and long term. Assigning points to a story is one part of that (covered in doc), but determining the appropriate number of points to people for a sprint is the other important part (not covered in doc). In general, the theme of estimation and its value can be highlighted a bit more throughout the doc. As an example, I think you could fill out the description of what happens when we finish a sprint a little bit more. It would be helpful to talk a little bit about how we close out the sprint, carry out/ carry in, point estimation, etc. Some of that is in flux for us at the moment, but it is worth talking about regardless.
+ 
+ 
+ 
 1. We assemble a rough list of stories to be included in the sprint (a mix of product, design, dev, and qa stories),
 2. We determine who will work on each story (via self-selection rather than top-down assignment), 
 3. Assignees break each of their stories into small, actionable chunks,
-4. We estimate the amount of effort required to complete each chunk (via [planning poker](#notes)<sup>6</sup>), and
-5. We commit to a specific subset of chunks by using our historical team [velocity](#notes)<sup>7</sup> to calculate how much each person should take on.
+4. We estimate the amount of effort required to complete each chunk (via [planning poker](https://en.wikipedia.org/wiki/Planning_poker)), and
+5. We commit to a specific subset of chunks by using our historical team [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development) to calculate how much each person should take on.
 
 ![Sprint planning](https://github.com/vimeo/Blueprint/blob/working-draft/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
 
-During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>8</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
+During a sprint we track progress using a [scrum or kanban-like board](#notes)<sup>4</sup> with status columns for To Do, In Progress, Blocked, Ready for Review, Ready for QA, and Done. 
 
 After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint. This is also the perfect time to adjust the process to better suit our needs. 
 
 ##Notes
 
 1. At the time of writing, the Vimeo Mobile & TV Group is comprised of roughly 20 people. 
-2. [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
-3. [Agile](https://en.wikipedia.org/wiki/Agile_software_development)
-4. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
-5. We use Confluence for most documentation, but any wiki-like tool will do.
-6. [Planning poker](https://en.wikipedia.org/wiki/Planning_poker)
-7. [Velocity tracking](https://en.wikipedia.org/wiki/Velocity_(software_development))
-8. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
+2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
+3. We use Confluence for most documentation, but any wiki-like tool will do.
+4. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
 
 ##Contributors
 
