@@ -32,8 +32,6 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
 
-The goal of a team is to produce meaningful, high quality work at a predictable [pace](#notes)<sup>2</sup>.
- 
 ##Workflow
  
 Workflow is a structured approach to how a team evolves an idea from inception to production. Teams evolve each idea one function at a time, with each function’s output being the next function’s input. 
@@ -47,7 +45,7 @@ Each function's output must be reviewed and approved by the other functions befo
 
 This is our ideal workflow. In practice the boundaries are softer and the communication more fluid. No matter how the workflow is applied the emphasis is on discussion across functions and platforms early and often (e.g. product specs out a feature, design identifies potential conceptual inconsistencies, engineering identifies technical limitations, product updates the spec, and so on). 
 
-These checks and balances increase our chances of success and predictability by helping us abstract and define problems better and therefore making us less likely to encounter issues down the line. However, problems are not always avoidable and this is where a willingness to engage in iterative product development is important.
+These checks and balances increase our chances of success and predictability by helping us define problems more accurately and therefore making us less likely to encounter issues down the line. However, problems are not always avoidable and this is where a willingness to engage in iterative product development is important.
 
 We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way. 
 
@@ -76,7 +74,7 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 ##Notes
 
 1. At the time of writing, the Vimeo Mobile & TV Group is comprised of roughly 20 people. 
-2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android).
+2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android) (both coming soon).
 3. We use Confluence for most documentation, but any wiki-like tool will do.
 4. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
 
