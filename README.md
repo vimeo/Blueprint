@@ -9,7 +9,6 @@ aka **How We Collaborate** :zap:
 [Team](#team)  
 [Workflow](#workflow)  
 [Sprints](#sprints)  
-[Residencies](#residencies)
 [Notes](#notes)  
 [Contributors](#contributors)  
 
