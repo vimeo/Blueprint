@@ -75,7 +75,7 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 In order to promote personal growth and inter-team knowledge transfer, the Mobile & TV Group offers residencies. A residency is a sprint-long period where anyone from any other group within Vimeo can join the team to work on any product that interests them. This allows the opportunity to learn new langagues and development skills.
 
-Residencies last for one sprint at a miniumum as to confirm to the team process and sprint lifecycle. If you're doing a residency, you'll attend the sprint planning meetings and retrospective. You'll be paired up with a developer on the team to help get set up and provide guidance along the way.
+Residencies last for one sprint at a miniumum as to conform to the team process and sprint lifecycle. If you're doing a residency, you'll attend the sprint planning meetings and retrospective. You'll be paired up with a developer on the team to help get set up and provide guidance along the way.
 
 To apply for a residency:
 
