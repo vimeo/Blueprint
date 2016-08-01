@@ -9,12 +9,13 @@ aka **How We Collaborate** :zap:
 [Team](#team)  
 [Workflow](#workflow)  
 [Sprints](#sprints)  
+[Residencies](#residencies)  
 [Notes](#notes)  
 [Contributors](#contributors)  
 
 ##Overview
 
-This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines three aspects of our process: [team](#team), [workflow](#workflow), and [sprints](#sprints). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
+This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines four aspects of our process: [team](#team), [workflow](#workflow), [sprints](#sprints), and [residencies](#residencies). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
 
 ##Why Process?
 
@@ -73,14 +74,16 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 ##Residencies
 
-In order to promote personal growth and inter-team knowledge transfer, the Mobile & TV Group offers residencies. A residency is a sprint-long period where anyone from any other group within Vimeo can join the team to work on any product that interests them. This allows the opportunity to learn new langagues and development skills.
+In order to promote personal growth and inter-team knowledge transfer, the Mobile & TV Group offers residencies. A residency is a single or multi-sprint-long period where a colleague from another group can contribute to Mobile & TV product development in a structured way. This allows the opportunity to learn new platforms, languages, and team processes.
 
-Residencies last for one sprint at a miniumum as to conform to the team process and sprint lifecycle. If you're doing a residency, you'll attend the sprint planning meetings and retrospective. You'll be paired up with a developer on the team to help get set up and provide guidance along the way.
+If you're doing a residency, you'll attend all sprint planning meetings and the retrospective. You'll be partnered with a member of the team to help get set up and provide guidance and mentorship along the way.
 
 To apply for a residency:
 
 1. Get approval from your manager,
 2. Email gavin@vimeo.com about what you would like to work on.
+
+We have the capacity to take on 1 or 2 people at a time per product, so we'll get back to you and start scheduling a start date.
 
 ##Notes
 
