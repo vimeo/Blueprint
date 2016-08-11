@@ -52,7 +52,7 @@ We solicit feedback early, ask questions often, and [document and share what we 
 
 ##Sprints
  
-Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>. Pace is valuable because it allows us to predict how long things will take in the short and long term. 
+Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>. Pace is valuable because it allows us to predict how long projects will take in the short and long term. 
  
 ![Sprint workflow](/assets/workflow-with-sprints.png)    
 <sup>*Sprint workflow*</sup>
@@ -63,7 +63,7 @@ Before beginning a sprint:
 2. We determine who will work on each story (via self-selection rather than top-down assignment), 
 3. Assignees break each of their stories into small, actionable chunks (defined in, for example, Jira tickets or Github issues),
 4. We estimate the amount of effort required to complete each chunk (via [planning poker](https://en.wikipedia.org/wiki/Planning_poker)), and
-5. We commit to a specific subset of chunks by using our historical team [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development) and the [Pace apps](#notes)<sup>2</sup> to calculate how much each person should take on.
+5. We commit to a specific subset of chunks by using our historical team [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development)) and the [Pace apps](#notes)<sup>2</sup> to calculate how much each person should take on.
 
 ![Sprint planning](/assets/sprint-planning.png)    
 <sup>*Sprint planning*</sup>
