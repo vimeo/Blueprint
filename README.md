@@ -44,7 +44,7 @@ Consider an example where the idea we're working on is captured by this user sto
 
 Each function's output must be reviewed and approved by the other functions before it can advance to the next stage (e.g. design and engineering review a product spec before it advances, product and engineering review design documentation before it advances, etc.). This helps us make decisions when we have enough info to make them (not before, not after). It also ensures cross-functional ownership at each stage.
 
-This is our ideal workflow. In practice the boundaries are softer and the communication more fluid. No matter how the workflow is applied the emphasis is on discussion across functions and platforms early and often (e.g. product specs out a feature, design identifies potential conceptual inconsistencies, engineering identifies technical limitations, product updates the spec, and so on). 
+This is our ideal workflow. In practice the boundaries are softer and the communication more fluid. No matter how the workflow is applied the emphasis is on discussion across functions and platforms early and often (e.g. product specs out a feature, design identifies potential conceptual inconsistencies, engineering identifies technical limitations, revisions are made, and so on). 
 
 These checks and balances increase our chances of success and predictability by helping us define problems more accurately and therefore making us less likely to encounter issues down the line. However, problems are not always avoidable and this is where a willingness to engage in iterative product development is important.
 
