@@ -74,16 +74,16 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 ##Exchange Program
 
-In order to promote personal growth and inter-team knowledge transfer, the Mobile & TV Group offers an exchange program. A exchange is a single or multi-sprint-long period where a colleague from another group can contribute to Mobile & TV product development in a structured way. This allows the opportunity to learn new platforms, languages, and team processes.
+In order to promote personal growth and inter-team knowledge transfer we offer an engineering exchange program. An exchange is a single or multi-sprint-long period where an engineer from another group can contribute to one of our projects in a structured way. This is an opportunity for exchange participants to learn new platforms, languages, and team processes.
 
-If you're doing an exchange, you'll attend all sprint planning meetings and the retrospective. You'll be partnered with a member of the team to help get set up and provide guidance and mentorship along the way.
+When you participate in an exchange you'll be paired up with a member of the team responsible for the project that you'll be contributing to. They'll help you get set up and will provide guidance and mentorship during the exchange. You'll also attend all sprint planning meetings, daily scrum, and sprint retrospective.
 
 To apply for the exchange program:
 
 1. Get approval from your manager,
-2. Email gavin@vimeo.com about what you would like to work on.
+2. Email alfie@vimeo.com and describe your platform, product, component preferences.
 
-We have the capacity to take on 1 or 2 people at a time per product, so we'll get back to you and start scheduling a start date.
+We'll get back to you asap. Note: for now, we have the capacity to take on 1 person per sprint per product.
 
 ##Notes
 
