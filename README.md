@@ -46,7 +46,7 @@ Each function's output must be reviewed and approved by the other functions befo
 
 This is our ideal workflow. In practice the boundaries are softer and the communication more fluid. No matter how the workflow is applied the emphasis is on discussion across functions and platforms early and often (e.g. product specs out a feature, design identifies potential conceptual inconsistencies, engineering identifies technical limitations, revisions are made, and so on). 
 
-These checks and balances increase our chances of success and predictability by helping us define problems more accurately and therefore making us less likely to encounter issues down the line. However, problems are not always avoidable and this is where a willingness to engage in iterative product development is important.
+These checks and balances help us define problems more accurately. This makes us less likely to encounter issues mid-development, and therefore increases our chances of success and predictability. However, problems are not always avoidable and this is where a willingness to engage in iterative product development is important.
 
 We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way. 
 
