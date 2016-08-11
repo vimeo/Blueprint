@@ -9,13 +9,13 @@ aka **How We Collaborate** :zap:
 [Team](#team)  
 [Workflow](#workflow)  
 [Sprints](#sprints)  
-[Residencies](#residencies)  
+[Exchange Program](#exchange-program)  
 [Notes](#notes)  
 [Contributors](#contributors)  
 
 ##Overview
 
-This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines four aspects of our process: [team](#team), [workflow](#workflow), [sprints](#sprints), and [residencies](#residencies). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
+This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines four aspects of our process: [team](#team), [workflow](#workflow), [sprints](#sprints), and the [exchange program](#exchange-program). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
 
 ##Why Process?
 
@@ -72,13 +72,13 @@ During a sprint we track progress using a [scrum or kanban-like board](#notes)<s
 
 After finishing a sprint we hold a retrospective to discuss what went well, what didn't go so well, and what we decide to do differently next sprint. Part of retrospective involves examining our [burndown chart](https://en.wikipedia.org/wiki/Burn_down_chart) to gauge the accuracy of our estimates and inform how we estimate and commit to the next sprint's tasks. Retrospective is also the perfect time to adjust the process to better suit our needs. 
 
-##Residencies
+##Exchange Program
 
-In order to promote personal growth and inter-team knowledge transfer, the Mobile & TV Group offers residencies. A residency is a single or multi-sprint-long period where a colleague from another group can contribute to Mobile & TV product development in a structured way. This allows the opportunity to learn new platforms, languages, and team processes.
+In order to promote personal growth and inter-team knowledge transfer, the Mobile & TV Group offers an exchange program. A exchange is a single or multi-sprint-long period where a colleague from another group can contribute to Mobile & TV product development in a structured way. This allows the opportunity to learn new platforms, languages, and team processes.
 
-If you're doing a residency, you'll attend all sprint planning meetings and the retrospective. You'll be partnered with a member of the team to help get set up and provide guidance and mentorship along the way.
+If you're doing an exchange, you'll attend all sprint planning meetings and the retrospective. You'll be partnered with a member of the team to help get set up and provide guidance and mentorship along the way.
 
-To apply for a residency:
+To apply for the exchange program:
 
 1. Get approval from your manager,
 2. Email gavin@vimeo.com about what you would like to work on.
