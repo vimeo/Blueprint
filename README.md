@@ -83,7 +83,7 @@ To apply for the exchange program:
 1. Get approval from your manager,
 2. Email alfie@vimeo.com and describe your platform, product, component preferences.
 
-We'll get back to you asap. Note: for now, we have the capacity to take on 1 person per sprint per product.
+We'll get back to you ASAP. Note: for now, we have the capacity to take on 1 person per sprint per product.
 
 ##Notes
 
