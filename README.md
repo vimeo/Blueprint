@@ -76,14 +76,7 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 In order to promote personal growth and inter-team knowledge transfer we offer an engineering exchange program. An exchange is a single or multi-sprint-long period where an engineer from another group can contribute to one of our projects in a structured way. This is an opportunity for exchange participants to learn new platforms, languages, and team processes.
 
-When you participate in an exchange you'll be paired up with a member of the team responsible for the project that you'll be contributing to. They'll help you get set up and will provide guidance and mentorship during the exchange. You'll also attend all sprint planning meetings, daily scrum, and sprint retrospective.
-
-To apply for the exchange program:
-
-1. Get approval from your manager,
-2. Email alfie@vimeo.com and describe your platform, product, component preferences.
-
-We'll get back to you ASAP. Note: for now, we have the capacity to take on 1 person per sprint per product.
+When someone participates in an exchange they are paired up with a member of the team that's working on the project that they'll be contributing to. This point-person helps them get set up and provides guidance and mentorship during the exchange. Exchange participants attend all sprint planning meetings, daily scrum, and sprint retrospective.
 
 ##Notes
 
