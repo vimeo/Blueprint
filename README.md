@@ -83,32 +83,29 @@ Velocity is a number that represents the amount of work completed by a team duri
 
 ### How Do We Track Velocity?
 
-***NEEDS REVISIONS ///***
+Velocity tracking stuff mostly occurs during sprint planning. 
 
-We need to perform a few calcualtions during sprint planning: 
+If the sprint you're planning is the first sprint where you'll be incorporating anything related to velocity you need to choose an initial "fake" **average-sprint-velocity**. Its value might be something like 0.5 (**fill this in**).
 
-> *total number of points completed* = The sum of the point values of tasks that are 100% “done”
+If you just finished a sprint and all tasks in that sprint were assigned a point value, then you need to calculate that sprint's **sprint-velocity** and use that to calculate **average-sprint-velocity**. You do this like so:
 
 > *total person-hours* = The sum of the hours each team member contributed to the sprint
+
+> *total number of points completed* = The sum of the point values of tasks that are 100% “done”
 
 > **sprint-velocity** = *total number of points completed* / *total person-hours*
 
 > **average-sprint-velocity** = average **sprint-velocity** of previous *n* sprints
 
-When planning a sprint, the team determines how many total points they should commit to by multiplying their **average-sprint-velocity** by the *total person-hours* available in the sprint they are planning. The result is the total number of points the team should commit to. If every member of the team will be present for the entire sprint, the total points are divided evenly to each member; every individual’s contribution is considered equal. If a team member will only be able to contribute to half of a sprint, their **individual-velocity** will be 50% of the total number of hours in the sprint multiplied by the **average-sprint-velocity**. The individual velocity factors in the specific team member’s available hours and always relies on the average velocity for the team; it is never reliant on the individual’s previous velocities and individual velocity is never recorded at the end of a sprint.
+*Note: When calculating *total person-hours* aka each team member's availability for the sprint you're planning. For example, if your sprint is 2 weeks of 5 8-hour days then each person has a max of 80 available hours. But you might reduce this number if a company holiday falls within the sprint, if a team member is taking time off, or generally if someone's capacity is reduced for any other reason.* 
+
+*Note: Dividing the total points by the total hours results in the smallest possible unit of one point, per one person, per one hour aka **sprint-velocity**. Since **sprint-velocity** is broken down to the smallest unit, it can scale well with any number of team members as well as any number of days in a sprint.*
+
+Once you have a real or "fake" **average-sprint-velocity** you're ready to determine how many points each team member should commit to in the sprint you're planning. You do this by multiplying **average-sprint-velocity** by the *total person-hours* available in the sprint you are planning. The result is the total number of points the team should commit to. If every member of the team will be present for the entire sprint, the total points are divided evenly to each member (every individual’s contribution is considered equal). 
+
+If a team member will only be able to contribute to half of a sprint, their **individual-velocity** will be 50% of the total number of hours in the sprint multiplied by the **average-sprint-velocity**. The individual velocity factors in the specific team member’s available hours and always relies on the average velocity for the team; it is never reliant on the individual’s previous velocities and individual velocity is never recorded at the end of a sprint (this is a team effort, the emphasis is on team performance).
 
 > **individual-velocity** = *hours the team member can contribute to the sprint* * **average-sprint-velocity**
-
-
-Tracking velocity involves doing a few things during sprint planning: 
-
-1. Assign a point value to every task you're considering including in the sprint you're planning (See [above](#sprints)).
-
-2. Calculate each team member's availability for the sprint you're planning. For example, if your sprint is 2 weeks of 5 8-hour days then each person has a max of 80 available hours. But you might reduce this number if a company holiday falls within the sprint, if a team member is taking time off, or generally if someone's capacity is reduced for any other reason. 
-
-Dividing the total points by the total hours results in the smallest possible unit of one point, per one person, per one hour. Since **sprint-velocity** is broken down to the smallest unit, it can scale well with any number of team members as well as any number of days in a sprint.
-
-***NEEDS REVISIONS ^^^***
 
 ### Why Do We Track Velocity?
 
