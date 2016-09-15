@@ -79,15 +79,15 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 Velocity tracking is the practice of using our average historical output to inform how we plan and commit to upcoming work. 
 
-Velocity is a number that represents the amount of work completed by a team during a specific time period. Typically, we talk about “sprint velocity” and “average sprint velocity”. **sprint-velocity** describes the amount of work completed in a single sprint. **average-sprint-velocity** is an average of the previous *n* sprints (where *n* is something like 2 - 4 sprints). We use the latter during sprint planning to determine how much work to commit to in the sprint being planned.
+Velocity is a number that represents the amount of work completed by a team during a specific time period. Typically, we talk about “sprint velocity” and “average sprint velocity”. `sprint-velocity` describes the amount of work completed in a single sprint. `average-sprint-velocity` is an average of the previous *n* sprints (where *n* is something like 2 - 4 sprints). We use the latter during sprint planning to determine how much work to commit to in the sprint being planned.
 
 ### How Do We Track Velocity?
 
 Velocity tracking stuff mostly occurs during sprint planning. 
 
-If the sprint you're planning is the first sprint where you'll be incorporating anything related to velocity you need to choose an initial "fake" **average-sprint-velocity**. Its value might be something like 0.5 (**fill this in**).
+If the sprint you're planning is the first sprint where you'll be incorporating anything related to velocity you need to choose an initial "fake" `average-sprint-velocity`. Its value might be something like 0.5 (avg. number of points completed per person per hour).
 
-If you just finished a sprint and all tasks in that sprint were assigned a point value, then you need to calculate that sprint's **sprint-velocity** and use that to calculate **average-sprint-velocity**. You do this like so:
+If you just finished a sprint and all tasks in that sprint were assigned a point value, then you need to calculate that sprint's `sprint-velocity` and use that to calculate `average-sprint-velocity`. You do this like so:
 
 > *total person-hours* = The sum of the hours each team member contributed to the sprint
 
