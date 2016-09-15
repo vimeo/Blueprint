@@ -16,14 +16,14 @@ aka **How We Collaborate** :zap:
 
 ##Overview
 
-This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines four aspects of our process: [team](#team), [workflow](#workflow), [sprints](#sprints), and the [exchange program](#exchange-program). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
+This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines five aspects of our process: [team](#team), [workflow](#workflow), [sprints](#sprints), [velocity tracking](#velocity-tracking) and the [exchange program](#exchange-program). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
 
 ##Why Process?
 
 Process helps us to:
  
 1. Produce high quality work at a predictable [pace](#notes)<sup>2</sup>, 
-3. Promote the development of an extraordinary team.
+2. Promote the development of an extraordinary team.
  
 ##Team
  
@@ -75,26 +75,48 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 ## Velocity Tracking
 
-Velocity is a number that represents the amount of work completed by a team during a specific time period. Typically, we talk about “sprint velocity” and “average sprint velocity”. Sprint velocity describes the amount of work completed in a single sprint. Average sprint velocity is an average of the previous *n* sprints (where *n* is something like 2 - 4 sprints). 
+### What is Velocity Tracking?
+
+Velocity tracking is the practice of using our average historical output to inform how we plan and commit to upcoming work. 
+
+Velocity is a number that represents the amount of work completed by a team during a specific time period. Typically, we talk about “sprint velocity” and “average sprint velocity”. **sprint-velocity** describes the amount of work completed in a single sprint. **average-sprint-velocity** is an average of the previous *n* sprints (where *n* is something like 2 - 4 sprints). We use the latter during sprint planning to determine how much work to commit to in the sprint being planned.
+
+### How Do We Track Velocity?
+
+***NEEDS REVISIONS ///***
+
+We need to perform a few calcualtions during sprint planning: 
+
+> *total number of points completed* = The sum of the point values of tasks that are 100% “done”
+
+> *total person-hours* = The sum of the hours each team member contributed to the sprint
 
 > **sprint-velocity** = *total number of points completed* / *total person-hours*
 
 > **average-sprint-velocity** = average **sprint-velocity** of previous *n* sprints
 
-
-The latter is useful in planning the amount of work to commit to in an upcoming sprint. 
-
-Before a sprint is started the team assigns a point value to each task. This point value represents the estimated amount of effort that it will take to complete the task. At the end of the sprint the team uses these point values to calculate the sprint velocity. First, the team sums the point values of the completed tasks to get the *total number of points completed* (Footnote: Only include the point values of tasks that are 100% “done”). Next, the team sums how many hours each team member was able to contribute to the sprint to get *total person-hours*. Finally, the team divides the *total number of points completed* by the number of *total person-hours* in the sprint. The resulting value is the **sprint-velocity**. Dividing the total points by the total hours results in the smallest possible unit of one point, per one person, per one hour. Since **sprint-velocity** is broken down to the smallest unit, it can scale well with any number of team members as well as any number of days in a sprint.
-
 When planning a sprint, the team determines how many total points they should commit to by multiplying their **average-sprint-velocity** by the *total person-hours* available in the sprint they are planning. The result is the total number of points the team should commit to. If every member of the team will be present for the entire sprint, the total points are divided evenly to each member; every individual’s contribution is considered equal. If a team member will only be able to contribute to half of a sprint, their **individual-velocity** will be 50% of the total number of hours in the sprint multiplied by the **average-sprint-velocity**. The individual velocity factors in the specific team member’s available hours and always relies on the average velocity for the team; it is never reliant on the individual’s previous velocities and individual velocity is never recorded at the end of a sprint.
 
 > **individual-velocity** = *hours the team member can contribute to the sprint* * **average-sprint-velocity**
 
-Velocity tracking has several benefits - it increases predictability, leads to more detailed tasks, and ensures all members of the team have an amount of work they feel comfortable with. Since **average-sprint-velocity** is the average of previous sprints, commitment should end with no member having too much to complete or too little to complete as it is based on how much work the team was able to finish in the past. The average also increases predictability by greatly improving the likelihood that the team will finish what they said they would finish. This prevents blockers because all dependencies of a task will have been resolved in a previous sprint.
 
-Velocity tracking improves task definition because well defined tasks are a prerequisite to estimation. When estimating a task, the point value assigned is based on time, complexity, and unknowns. Reducing the number of unknowns makes the point value more accurate because it removes ambiguity and allows the team to point solely on the task’s time and complexity. The point values the team chooses from should get progressively larger because as a task gets bigger, the number of unknowns increases. A good scale to use for point values is the fibonacci sequence (1, 2, 3, 5, 8, 13). In the example of the fibonacci sequence, task estimates should remain below a 13. If a task gets larger than an 8, that means that it is too vague and should broken down into several more specific tasks with their own point values. Team members should estimate each task as a group and converge on a point value that every member agrees with. This ensures that each task is pointed consistently and flushes out any additional unknowns. It doesn’t matter if two separate teams use a different scale, as long as they are consistent within their own team.
+Tracking velocity involves doing a few things during sprint planning: 
 
-Task estimation is a difficult process but it naturally improves from sprint to sprint as the team retrospects how they estimated. By measuring each sprint against a previous one, it is easier for the team to identify which areas need improvement (estimation, overcommitment, excessive blockers, etc). Within just a few sprints of velocity tracking, each team will see a considerable improvement in comfort, predictability, and consistency.
+1. Assign a point value to every task you're considering including in the sprint you're planning (See [above](#sprints)).
+
+2. Calculate each team member's availability for the sprint you're planning. For example, if your sprint is 2 weeks of 5 8-hour days then each person has a max of 80 available hours. But you might reduce this number if a company holiday falls within the sprint, if a team member is taking time off, or generally if someone's capacity is reduced for any other reason. 
+
+Dividing the total points by the total hours results in the smallest possible unit of one point, per one person, per one hour. Since **sprint-velocity** is broken down to the smallest unit, it can scale well with any number of team members as well as any number of days in a sprint.
+
+***NEEDS REVISIONS ^^^***
+
+### Why Do We Track Velocity?
+
+Velocity tracking has several benefits ranging from better scoping and more accurate estimation to more reasonable workloads and increased team predictability.
+
+Velocity tracking improves task definition because well defined tasks are a prerequisite to accurate estimation. When estimating a task, the point value assigned is based on time, complexity, and unknowns. Reducing the number of unknowns makes the point value more accurate because it removes ambiguity and allows the team to point solely on the task’s time and complexity. The point values the team chooses from should get progressively larger because as a task gets bigger, the number of unknowns increases. A good scale to use for point values is the fibonacci sequence (1, 2, 3, 5, 8, 13). In the example of the fibonacci sequence, task estimates should remain below a 13. If a task gets larger than an 8, that means that it is too vague and should broken down into several more specific tasks with their own point values. Team members should estimate each task as a group and converge on a point value that every member agrees with. This ensures that each task is pointed consistently and flushes out any additional unknowns. It doesn’t matter if two separate teams use a different scale, as long as they are consistent within their own team.
+
+Task estimation is a difficult process but it naturally improves from sprint to sprint as the team retrospects how they estimated. By measuring each sprint against a previous one, it is easier for the team to identify which areas need improvement (estimation, overcommitment, excessive blockers, etc). After tracking velocity for a few sprints a team should see a considerable improvement in comfort (i.e. committing to just the right amount of work), predictability, and consistency.
 
 ##Exchange Program
 
