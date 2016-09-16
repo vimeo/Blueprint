@@ -77,17 +77,15 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 ### What is Velocity Tracking?
 
-Velocity tracking is the practice of using our average historical output to inform how we plan and commit to upcoming work. 
+Let's say your team has broken user stories into tasks that are each ticketed, pointed, and assigned to team members. Now it's time to decide, how much should your team commit to as a whole for the next sprint? How does that translate to the total number of points that each team member should be assigned for the next sprint? Velocity tracking can help you do that by using a team's average historical output to inform how much work (measured in total number of points) to commit to in the upcoming sprint. As such, velocity tracking is both used to help us (1) plan upcoming sprints and (2) reflect on how much work was accomplished during retrospective.
 
-Velocity is a number that represents the amount of work completed by a team during a specific time period. Typically, we talk about “sprint velocity” and “average sprint velocity”. `sprint-velocity` describes the amount of work completed in a single sprint. `average-sprint-velocity` is an average of the previous *n* sprints (where *n* is something like 2 - 4 sprints). We use the latter during sprint planning to determine how much work to commit to in the sprint being planned.
+Velocity is a number that represents the amount of work completed by a team during a specific time period. Typically, we talk about “sprint velocity” and “average sprint velocity”. `sprint-velocity` describes the amount of work completed in a single sprint. `average-sprint-velocity` is an average of the previous *n* sprints (where *n* is something like 2 - 4 sprints). We use `average-sprint-velocity` during sprint planning to determine how much work to commit to in the sprint being planned.
 
 ### How Do We Track Velocity?
 
-Velocity tracking stuff mostly occurs during sprint planning. 
+If the sprint you're planning is the first sprint where you'll be incorporating anything related to velocity then use a seed value of 0.5 for `average-sprint-velocity` to get your estimations started.
 
-If the sprint you're planning is the first sprint where you'll be incorporating anything related to velocity you need to choose an initial "fake" `average-sprint-velocity`. Its value might be something like 0.5 (avg. number of points completed per person per hour).
-
-If you just finished a sprint and all tasks in that sprint were assigned a point value, then you need to calculate that sprint's `sprint-velocity` and use that to calculate `average-sprint-velocity`. You do this like so:
+If all tickets in the previous sprint are pointed there's no need for a seed value and you can calcualte the `sprint-velocity` of the previous sprint and then the `average-sprint-velocity`. You do this like so:
 
 > *total person-hours* = The sum of the hours each team member contributed to the sprint
 
@@ -97,15 +95,15 @@ If you just finished a sprint and all tasks in that sprint were assigned a point
 
 > **average-sprint-velocity** = average **sprint-velocity** of previous *n* sprints
 
-*Note: When calculating `total person-hours` aka each team member's availability for the sprint you're planning. For example, if your sprint is 2 weeks of 5 8-hour days then each person has a max of 80 available hours. But you might reduce this number if a company holiday falls within the sprint, if a team member is taking time off, or generally if someone's capacity is reduced for any other reason.* 
+How to calcualte `total person-hours`? If your sprint is 2 weeks of 5 8-hour days then each person has a max of 80 available hours. But you might reduce this number if a company holiday falls within the sprint, if a team member is taking time off, or generally if someone's capacity is reduced for any other reason.
 
-*Note: Dividing the total points by the total hours results in the smallest possible unit of one point, per one person, per one hour aka `sprint-velocity`. Since `sprint-velocity` is broken down to the smallest unit, it can scale well with any number of team members as well as any number of days in a sprint.*
-
-Once you have a real or "fake" `average-sprint-velocity` you're ready to determine how many points each team member should commit to in the sprint you're planning. You do this by multiplying `average-sprint-velocity` by the `total person-hours` available in the sprint you are planning. The result is the total number of points the team should commit to. If every member of the team will be present for the entire sprint, the total points are divided evenly to each member (every individual’s contribution is considered equal). 
+Once you have a real or seeded `average-sprint-velocity` you're ready to determine how many points each team member should commit to in the sprint you're planning. You do this by multiplying `average-sprint-velocity` by the `total person-hours` available in the sprint you are planning. The result is the total number of points the team should commit to. If every member of the team will be present for the entire sprint, the total points are divided evenly to each member (every individual’s contribution is considered equal). 
 
 If a team member will only be able to contribute to half of a sprint, their `individual-velocity` will be 50% of the total number of hours in the sprint multiplied by the `average-sprint-velocity`. The individual velocity factors in the specific team member’s available hours and always relies on the average velocity for the team; it is never reliant on the individual’s previous velocities and individual velocity is never recorded at the end of a sprint (this is a team effort, the emphasis is on team performance).
 
 > **individual-velocity** = *hours the team member can contribute to the sprint* * **average-sprint-velocity**
+
+*Note: Dividing the total points by the total hours results in the smallest possible unit of one point, per one person, per one hour aka `sprint-velocity`. Since `sprint-velocity` is broken down to the smallest unit, it can scale well with any number of team members as well as any number of days in a sprint.*
 
 ### Why Do We Track Velocity?
 
