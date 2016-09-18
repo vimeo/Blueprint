@@ -77,53 +77,69 @@ The following sections provide more detail on specific phases of sprint planning
 
 ##Task Estimation 
 
-Each task that a team member takes on requires an estimated point value. When estimating a task, the point value assigned is based on time, complexity, and unknowns. Ensuring tickets are broken down into sensible, actionable chunks can reduce unknowns and allow the team to point a ticket based on the task’s time and complexity. 
+Each task requires an estimated point value based on time, complexity, and unknowns. Ensuring tickets are broken down into sensible, actionable chunks can reduce unknowns and allow the team to point a ticket based on the task’s time and complexity. A good scale to use for point values is the fibonacci sequence (1, 2, 3, 5, 8, 13) [because it reflects that uncertainty on how to execute a task increases with task size](http://www.scrum-institute.org/Effort_Estimations_Planning_Poker.php).
 
-A good scale to use for point values is the fibonacci sequence (1, 2, 3, 5, 8, 13) because, as the size of a task grows, [so does the associated amount of uncertainty in executing it](http://www.scrum-institute.org/Effort_Estimations_Planning_Poker.php). 
+A team should point each ticket as if any member were to take it on. Team members should therefore estimate each task as a group, and converge on a point value on which every member agrees. One method is planning poker, in which each team member reveals their individual point estimation of a task at the same time before the team collectively decides on the appropriate point value. 
 
-A team should point each ticket as if any member were to execute it. Team members should therefore estimate each task as a group, and converge on a point value on which every member agrees.    
-
-It doesn’t matter if two separate teams use a different type of scale or other practices specific to their pointing process, as long as they are consistent within their own team. For example, a team might decide to always revisit tickets that were assigned a point value of 13, because that suggests they reflect a task that has not been understood and broken down sufficiently. 
+It does not matter if two teams use different pointing scales or other practices specific to their pointing process, as long as they are consistent within their own team. For example, a team might decide to always re-assess tickets that were assigned a point value of 13, because that suggests the task has not been understood and broken down sufficiently. 
 
 ## Velocity Tracking
 
-Let's say your team has finished pointing tickets and assigned them to team members. Now it's time to decide, how much should your team commit to as a whole for the next sprint? How does that translate into the total number of points that each team member should be assigned? 
+Velocity tracking uses a team's average historical output to inform how much work (measured in total number of points) to commit to in the next sprint. Velocity tracking can also help a team reflect on how much work was accomplished during retrospective by comparing their *estimated* sprint velocity to their *actual* sprint velocity, often [visualized with a burn-down chart](https://en.wikipedia.org/wiki/Burn_down_chart).
 
-Velocity tracking uses a team's average historical output to inform how much work (measured in total number of points) to commit to in the next sprint. Velocity tracking can also help a team reflect on how much work was accomplished during retrospective by comparing their *target* sprint velocity to their *actual* sprint velocity, [usually manifested as a burn-down chart](https://en.wikipedia.org/wiki/Burn_down_chart).
+### What is Sprint-Velocity?
 
-### What is Sprint Velocity?
+`Sprint-velocity` describes the rate at which work is completed over the duration of a sprint. In other words, sprint-velocity reflects the number of points completed by an individual team member in one hour (or points per person-hour).
 
-`Sprint-velocity` describes the amount of work completed in a single sprint. `Average-sprint-velocity` is an average of the previous *n* sprints (where *n* might be 2 - 4). We use the `average-sprint-velocity` during sprint planning to determine how much work to commit to in the next sprint because it gives an overall sense of the how much work the team can reasonably accomplish. 
+When using sprint-velocity to plan a sprint, a team typically wants to know its average velocity across fairly recent sprints to get an overall sense of a comfortable pace. We will refer to this later as the `average-sprint-velocity`.
 
-### How Do We Track Velocity?
+### How Do We Measure Sprint-Velocity?
 
-If a team is planning their first sprint and has not tracked velocity before, they should use an initial value of 0.5 points per person-hour to get started. If a sprint is 2 weeks x 5, 8-hour days, then each person has a max of 80 available hours. For a team of 4 members, if the velocity is 0.5, that means each person is assigned 0.5 * 80 = 40 points worth of tickets. Thus the team as a whole has committed to 4 * 40 = 160 points to be completed over the duration of a sprint. 
+1. Determine the number of total available hours for the next 2-week sprint. If a team has 4 members, and each can contribute 40 hrs per week, there is a total of 320 person-hours. 
 
-Now let's say two weeks have passed, and the sprint is done: the team as a whole completed 128 points of the estimated 160 points they committed to. While their *projected* velocity was 0.5, their *actual* velocity is 128/320 = 0.4 point per person-hour. 
+ > ***total person-hours*** = The sum of the hours each team member can contribute to the sprint
+ 
+2. If a team is planning their first sprint and has never tracked velocity before, they should choose a "seed" sprint-velocity value, such as 0.5 points per person-hour, to get started. 
 
-The team now has a velocity value based on their **actual** performance to plan the next sprint. Now the team knows to assign 0.4 * 80 available work hours = 32 points to each team member. Now, the team's estimated velocity for the next sprint is 0.4, and they might complete work at an actual velocity that hits above or below that value. The can then average this with the previous value to get a new velocity. 
+ > ***sprint-velocity*** = number of points per person-hour
+ 
+3. Multiply the sprint-velocity by total person-hours to get the total number of points the team should commit to in the next sprint. Continuing our example, 0.5 points per person-hour x 320 person-hours = 160 points. 
 
-Here are the calculations broken out:
+ > *total number of points committed to* = *sprint-velocity* x *total person-hours*
 
-> *total person-hours* = The sum of the hours each team member contributed to the sprint
+4. Now let's say the sprint is done. The team as a whole completed most, but not all of the points committed to. While their *estimated* velocity was 0.5, their *actual* velocity is different. They completed 128 points / 320 hours,  so their team velocity based on the last sprint is 0.4 points per person-hour. 
 
-> *total number of points completed* = The sum of the point values of tasks that are 100% “done”
+ > **sprint-velocity** = total number of points completed / *total person-hours*
 
-> **sprint-velocity** = *total number of points completed* / *total person-hours*
+5. The team now has a velocity value based on their **actual** performance to plan the next sprint. Given the total person-hours available for that sprint, the team knows to assign a total number of points that reflects a velocity of 0.4. At the end of each subsequent sprint, the team will have another sprint-velocity sample they can use to calculate their **average-sprint-velocity** to plan future sprints. 
 
-> **average-sprint-velocity** = average **sprint-velocity** of previous *n* sprints
+ > **average-sprint-velocity** = the average velocity across the previous *n* sprints (where *n* might be 2 - 4)
 
-If a team member will only be able to contribute to half of a sprint, their `individual-velocity` will be 50% of the total number of hours in the sprint multiplied by the `average-sprint-velocity`. The individual velocity factors in the specific team member’s available hours and always relies on the average velocity for the team; it is never reliant on the individual’s previous velocities and individual velocity is never recorded at the end of a sprint (this is a team effort, the emphasis is on team performance).
+![Velocity tracking](/assets/velocityTracking.png)
+<sup>*Snapshot of a team planning their first 4 sprints using velocity tracking*</sup>
 
-> **individual-velocity** = *hours the team member can contribute to the sprint* * **average-sprint-velocity**
+Because sprint-velocity is measured in points / person-hour, it can be used with any number of team members, as well as any number of days, in a sprint. Note that Sprint 4 in the table above has 32 hours less than the previous because of a company holiday. The average-sprint-velocity can still be used to determine how many points to assign the team because it scales points based on the number of hours available. 
 
-*Note: Dividing the total points by the total hours results in the smallest possible unit of one point, per one person, per one hour aka `sprint-velocity`. Since `sprint-velocity` is broken down to the smallest unit, it can scale well with any number of team members as well as any number of days in a sprint.*
+### How Many Points are Assigned to an Individual Team Member?
+
+Typically the total points a team takes on is the result of each team member contributing equal person-hours to a sprint. But sometimes a team member needs to take time off or otherwise work at a lower capacity. This is accounted for by decreasing their available hours. 
+
+If a team member will only be able to contribute to part of a sprint, their `individual-commitment` will be the number of hours they can commit times the `average-sprint-velocity`. 
+
+> **individual-commitment (points)** = *hours the team member can contribute to the sprint* x *average-sprint-velocity*
+
+Total available person-hours is also adjusted to reflect the individual's decreased availability during the sprint. 
+
+The velocity of an individual team member is never tracked. This emphasizes focus on the collective effort of the team, not the performance of an individual team member. 
 
 ### Why Do We Track Velocity?
 
-Velocity tracking has several benefits ranging from better scoping and more accurate estimation to more reasonable workloads and increased team predictability. Velocity tracking improves task definition because well defined tasks are a prerequisite to accurate estimation. 
+Velocity tracking can over time increase the predictability of a team's output, which helps set more accurate expectations within a team. For example, the product manager can better estimate the timing of a release for a team of developers and designers with a predictable pace. 
 
-Task estimation is a difficult process but it naturally improves from sprint to sprint as the team retrospects how they estimated. By measuring each sprint against a previous one, it is easier for the team to identify which areas need improvement (estimation, overcommitment, excessive blockers, etc). After tracking velocity for a few sprints a team should see a considerable improvement in comfort (i.e. committing to just the right amount of work), predictability, and consistency.
+Velocity tracking can highlight the need to improve task scoping, because well-defined tasks are a prerequisite to accurate estimation. 
+Task estimation is a difficult process but it naturally improves across sprints as the team retrospects how they estimated. By measuring each sprint against the previous, it is easier for the team to identify which areas need improvement (estimation, overcommitment, excessive blockers, etc). 
+
+Velocity tracking helps keep workloads at a reasonable amount. After tracking velocity for a few sprints a team should see a considerable improvement in comfort (i.e. committing to just the right amount of work), predictability, and consistency.
 
 ##Exchange Program
 
