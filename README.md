@@ -105,15 +105,15 @@ When using sprint-velocity to plan a sprint, a team typically wants to know its 
  
 3. Multiply the sprint-velocity by total person-hours to get the total number of points the team should commit to in the next sprint. Continuing our example, 0.5 points per person-hour x 320 person-hours = 160 points. 
 
- > *total number of points committed to* = *sprint-velocity* x *total person-hours*
+ > ***total number of points committed to*** = *sprint-velocity* x *total person-hours*
 
 4. Now let's say the sprint is done. The team as a whole completed most, but not all of the points committed to. While their *estimated* velocity was 0.5, their *actual* velocity is different. They completed 128 points / 320 hours,  so their team velocity based on the last sprint is 0.4 points per person-hour. 
 
- > **sprint-velocity** = total number of points completed / *total person-hours*
+ > ***sprint-velocity*** = total number of points completed / *total person-hours*
 
 5. The team now has a velocity value based on their **actual** performance to plan the next sprint. Given the total person-hours available for that sprint, the team knows to assign a total number of points that reflects a velocity of 0.4. At the end of each subsequent sprint, the team will have another sprint-velocity sample they can use to calculate their **average-sprint-velocity** to plan future sprints. 
 
- > **average-sprint-velocity** = the average velocity across the previous *n* sprints (where *n* might be 2 - 4)
+ > ***average-sprint-velocity*** = the average velocity across the previous *n* sprints (where *n* might be 2 - 4)
 
 ![Velocity tracking](/assets/velocityTracking.png)
 <sup>*Snapshot of a team planning their first 4 sprints using velocity tracking*</sup>
@@ -126,7 +126,7 @@ Typically the total points a team takes on is the result of each team member con
 
 If a team member will only be able to contribute to part of a sprint, their `individual-commitment` will be the number of hours they can commit times the `average-sprint-velocity`. 
 
-> **individual-commitment (points)** = *hours the team member can contribute to the sprint* x *average-sprint-velocity*
+> ***individual-commitment (points)*** = *hours the team member can contribute* x *average-sprint-velocity*
 
 Total available person-hours is also adjusted to reflect the individual's decreased availability during the sprint. 
 
