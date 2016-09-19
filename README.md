@@ -63,7 +63,7 @@ Before beginning a sprint:
 1. We assemble a rough list of stories to be included in the sprint (a mix of product, design, dev, and qa stories),
 2. We determine who will work on each story (via self-selection rather than top-down assignment), 
 3. Assignees break each of their stories into small, actionable chunks (defined in, for example, Jira tickets or Github issues),
-4. We estimate the amount of effort required to complete each chunk (via [planning poker](https://en.wikipedia.org/wiki/Planning_poker)), and
+4. We [estimate the amount of effort required to complete each chunk](#task-estimation), and
 5. We commit to a specific subset of chunks by using our historical team [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development)) and the [Pace apps](#notes)<sup>2</sup> to calculate how much each person should take on.
 
 ![Sprint planning](/assets/sprint-planning.png)    
@@ -85,7 +85,7 @@ It does not matter if two teams use different pointing scales or other practices
 
 ## Velocity Tracking
 
-Velocity tracking uses a team's average historical output to inform how much work (measured in total number of points) to commit to in the next sprint. Velocity tracking can also help a team reflect on how much work was accomplished during retrospective by comparing their *estimated* sprint velocity to their *actual* sprint velocity, often [visualized with a burn-down chart](https://en.wikipedia.org/wiki/Burn_down_chart).
+Velocity tracking uses a team's average historical output to inform how much work (measured in total number of points) to commit to in the next sprint. Velocity tracking can also help a team reflect during retrospective on how much work was accomplished by comparing their *estimated* sprint velocity to their *actual* sprint velocity, often [visualized with a burn-down chart](https://en.wikipedia.org/wiki/Burn_down_chart).
 
 ### What is Sprint-Velocity?
 
