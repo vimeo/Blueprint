@@ -3,9 +3,9 @@
 
 [Requirement Documentation](#requirement-documentation)  
 [Sprint Planning](#sprint-planning)  
-- [Development Sprint Mix](#development-sprint-mix)  
-- [Design Sprint Mix](#design-sprint-mix)  
-- [The How and When of Sprint Planning](#the-how-and-when-of-sprint-planning)  
+[Development Sprint Mix](#development-sprint-mix)  
+[Design Sprint Mix](#design-sprint-mix)  
+[The How and When of Sprint Planning](#the-how-and-when-of-sprint-planning)  
 
 On our Agile team, the product owner’s core responsibilities are to:
 - Define and document feature requirements
