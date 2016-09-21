@@ -81,7 +81,7 @@ Each task requires an estimated point value based on time, complexity, and unkno
 
 A team should point each ticket as if any member were to take it on. Team members should therefore estimate each task as a group, and converge on a point value on which every member agrees. One method is planning poker, in which each team member reveals their individual point estimation of a task at the same time before the team collectively decides on the appropriate point value. 
 
-It does not matter if two teams use different pointing scales or other practices specific to their pointing process, as long as they are consistent within their own team. For example, a team might decide to always re-assess tickets that were assigned a point value of 13, because that suggests the task has not been understood and broken down sufficiently. 
+It does not matter if two teams use different pointing scales or other practices specific to their pointing process, as long as they are consistent within their own team. For example, a team might decide to break any tasks assigned a point value of 13 into multiple, smaller tickets because a 13 suggests the task is too vague or has too many unknowns. 
 
 ## Velocity Tracking
 
@@ -89,7 +89,7 @@ Velocity tracking uses a team's average historical output to inform how much wor
 
 ### What is Sprint-Velocity?
 
-`Sprint-velocity` describes the rate at which work is completed over the duration of a sprint. In other words, sprint-velocity reflects the number of points completed by an individual team member in one hour (or points per person-hour).
+`Sprint-velocity` describes the rate at which work is completed over the duration of a sprint. In other words, sprint-velocity reflects the number of points completed by the average team member in one hour (or points per person-hour).
 
 When using sprint-velocity to plan a sprint, a team typically wants to know its average velocity across fairly recent sprints to get an overall sense of a comfortable pace. We will refer to this later as the `average-sprint-velocity`.
 
@@ -101,9 +101,9 @@ When using sprint-velocity to plan a sprint, a team typically wants to know its 
  
 2. If a team is planning their first sprint and has never tracked velocity before, they should choose a "seed" sprint-velocity value, such as 0.5 points per person-hour, to get started. 
 
- > ***sprint-velocity*** = number of points per person-hour
+ > ***seed-sprint-velocity*** = number of points per person-hour
  
-3. Multiply the sprint-velocity by total person-hours to get the total number of points the team should commit to in the next sprint. Continuing our example, 0.5 points per person-hour x 320 person-hours = 160 points. 
+3. Multiply the seed-sprint-velocity by total person-hours to get the total number of points the team should commit to in the next sprint. Continuing our example, 0.5 points per person-hour x 320 person-hours = 160 points. 
 
  > ***total number of points committed to*** = *sprint-velocity* x *total person-hours*
 
