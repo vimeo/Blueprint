@@ -32,7 +32,7 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
 ![Team composition](/assets/team-composition.png)    
 <sup>*Team composition*</sup>
 
-Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. 
+Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. Teams typically include a product manager, designer(s), engineer(s), and a QA representative. Read more about the product manager's core responsibilities [here](/PRODUCT.md).
 
 ##Workflow
  
