@@ -81,11 +81,9 @@ Each task requires an estimated point value based on time, complexity, and unkno
 
 A team should point each ticket as if any member were to take it on. This increases team flexibility and improves the quality of task estimation. Team members should therefore estimate each task as a group, and converge on a point value on which every member agrees. One method is planning poker, in which each team member reveals their individual point estimation of a task at the same time before the team collectively decides on the appropriate point value. 
 
-In practice, estimating point value based on time alone without considering the complexity or associated unknowns of a task can lead to poor estimation. However, variables like complexity and unknowns do not have inherent upper and lower bounds, whereas the maximum amount of time available can easily be determined.
+In practice, estimating point value based on time alone without considering the complexity or associated unknowns of a task can lead to poor estimation. However, a variable like complexity does not have inherent upper and lower bounds, whereas the maximum amount of time available can easily be determined.
 
-It can be helpful to consider brackets of time when pointing to facilitate a discussion of a task's complexity and unknowns with some common ground among team members. In the example table below, a low complexity 3-point task might take closer to 4 hours for the average team member to complete, while a high complexity 3-point task might take closer to 8 hours.  
-
-<center>
+It can be helpful to consider brackets of time when pointing to set some common ground among team members amidst discussion of a task's complexity and unknowns. In the example table below, a low complexity 3-point task might take closer to 4 hours for the average team member to complete, while a high complexity 3-point task might take closer to 8 hours.  
 
 Points | Time range
 :----:|:----------:
@@ -98,9 +96,7 @@ Points | Time range
 
 <sup>*Example of how a team maps ranges of time to point value to facilitate task estimation*</sup>
 
-</center>
-
-The table above (and best practices in pointing in general) is by no means prescriptive. A team should determine in practice the guidelines that work for their specific needs. 
+The table above (and best practices in pointing in general) is by no means prescriptive. A team should determine in practice the guidelines that work for their needs. 
 
 It does not matter if two teams use different pointing scales or rules of thumb, as long as they are consistent within their own team. For example, a team might decide to break any tasks assigned a point value of 13 into multiple, smaller tickets because a 13 suggests the task is too vague or has too many unknowns. 
 
