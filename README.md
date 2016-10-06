@@ -79,9 +79,30 @@ The following sections provide more detail on specific phases of sprint planning
 
 Each task requires an estimated point value based on time, complexity, and unknowns. Ensuring tickets are broken down into sensible, actionable chunks can reduce unknowns and allow the team to point a ticket based on the task’s time and complexity. A good scale to use for point values is the fibonacci sequence (1, 2, 3, 5, 8, 13) [because it reflects that uncertainty on how to execute a task increases with task size](http://www.scrum-institute.org/Effort_Estimations_Planning_Poker.php).
 
-A team should point each ticket as if any member were to take it on. Team members should therefore estimate each task as a group, and converge on a point value on which every member agrees. One method is planning poker, in which each team member reveals their individual point estimation of a task at the same time before the team collectively decides on the appropriate point value. 
+A team should point each ticket as if any member were to take it on. This increases team flexibility and improves the quality of task estimation. Team members should therefore estimate each task as a group, and converge on a point value on which every member agrees. One method is planning poker, in which each team member reveals their individual point estimation of a task at the same time before the team collectively decides on the appropriate point value. 
 
-It does not matter if two teams use different pointing scales or other practices specific to their pointing process, as long as they are consistent within their own team. For example, a team might decide to break any tasks assigned a point value of 13 into multiple, smaller tickets because a 13 suggests the task is too vague or has too many unknowns. 
+In practice, estimating point value based on time alone without considering the complexity or associated unknowns of a task can lead to poor estimation. However, variables like complexity and unknowns do not have inherent upper and lower bounds, whereas the maximum amount of time available can easily be determined.
+
+It can be helpful to consider brackets of time when pointing to facilitate a discussion of a task's complexity and unknowns with some common ground among team members. In the example table below, a low complexity 3-point task might take closer to 4 hours for the average team member to complete, while a high complexity 3-point task might take closer to 8 hours.  
+
+<center>
+
+Points | Time range
+:----:|:----------:
+1 | up to 20 mins
+2 | 20 mins - 4 hrs
+3 | 4 - 8 hrs
+5 | 1 - 2 days
+8 | 2 - 4 days
+13 | 4+ days
+
+<sup>*Example of how a team maps ranges of time to point value to facilitate task estimation*</sup>
+
+</center>
+
+The table above (and best practices in pointing in general) is by no means prescriptive. A team should determine in practice the guidelines that work for their specific needs. 
+
+It does not matter if two teams use different pointing scales or rules of thumb, as long as they are consistent within their own team. For example, a team might decide to break any tasks assigned a point value of 13 into multiple, smaller tickets because a 13 suggests the task is too vague or has too many unknowns. 
 
 ## Velocity Tracking
 
