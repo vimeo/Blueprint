@@ -87,12 +87,12 @@ It can be helpful to consider brackets of time when pointing to set some common 
 
 Points | Time range
 :----:|:----------:
-1 | up to 20 mins
-2 | 20 mins - 4 hrs
-3 | 4 - 8 hrs
-5 | 1 - 2 days
-8 | 2 - 4 days
-13 | 4+ days
+1 | A few minutes
+2 | A few hours
+3 | Half a day
+5 | 1 day
+8 | 2 - 3 days
+13 | 1 week
 
 <sup>*Example of how a team maps ranges of time to point value to facilitate task estimation*</sup>
 
