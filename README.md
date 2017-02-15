@@ -167,7 +167,7 @@ When someone participates in an exchange they are paired up with a member of the
 ##Notes
 
 1. At the time of writing, the Vimeo Mobile & TV Group is comprised of roughly 20 people. 
-2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android) (both coming soon).
+2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android) (both coming soon). We have also created a [velocity tracking spreadsheet](/assets/velocity-tracking-template.xlsx) that handles the calculations.
 3. We use Confluence for most documentation, but any wiki-like tool will do.
 4. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
 
