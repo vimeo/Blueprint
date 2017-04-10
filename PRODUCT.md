@@ -1,5 +1,5 @@
 
-##Contents
+## Contents
 
 [Overview](#overview)  
 [Requirement Documentation](#requirement-documentation)  
@@ -8,7 +8,7 @@
 [Design Sprint Mix](#design-sprint-mix)  
 [The How and When of Sprint Planning](#the-how-and-when-of-sprint-planning)  
 
-##Overview 
+## Overview 
 
 On our Agile team, the product owner’s core responsibilities are to:
 - Define and document feature requirements
@@ -19,7 +19,7 @@ On our Agile team, the product owner’s core responsibilities are to:
 
 Every product owner does things a little different. Here’s how our team’s product owners tackle documentation and sprint planning.
 
-##Requirement Documentation
+## Requirement Documentation
 
 Requirement documentation is the first stage in the process of building a feature - loosely defined as a new piece of functionality, whether it be user-facing, or something like new analytics. Before design or development can start building something, the team must have a shared understanding of the problems we’re trying to solve and why we want to solve them. Those questions are answered via a detailed document that should:
 
@@ -30,11 +30,11 @@ Requirement documentation is the first stage in the process of building a featur
 
 While not necessary, this document might also include high-level user experience recommendations, user flow sketches, market research, and product data.
 
-##Sprint Planning
+## Sprint Planning
 
 The product owner is responsible for planning and prioritizing all tasks in a sprint. We run distinct sprints for design and development teams, as each has their own cadence of how work is done. 
 
-###Development Sprint Mix
+### Development Sprint Mix
 
 Development sprints should be a mix of 5 distinct types of tasks: Features, bugs, technical debt, research, and QA. Each task type has it's own backlog in a project tracker tool (such as JIRA, Pivotal, or Zenhub). Every sprint should contain at least a few points worth of each task type, to ensure no single task type receives disproportionate attention. Committing to servicing all of these task types ensures we maintain product stability while still continuing to ship new and exciting features in the most efficient way possible. 
 
@@ -50,7 +50,7 @@ When allocating developer time, we generally try to create a sprint mix consisti
 
 When the sprint mix is finalized and the tasks have been assigned, the product owner is responsible for prioritizing each engineer’s task queue. There should never be a question of ‘what do I do next?’. The answer should be dictated by the priority in the task queue.
 
-###Design Sprint Mix
+### Design Sprint Mix
 
 Designing a feature generally consists of 5 unique task types: Feature discovery, wireframing/prototyping, production design, reviews, and documentation. These tasks should be performed in this specific order, and can oftentimes span multiple sprints. We allocate time for each of these task types to ensure that no part of the design process is unaccounted for, so designers have plenty of time to review requirements and document their work before handing it off to developers. These tickets are created and prioritized by the product owner.
 
@@ -65,7 +65,7 @@ For some design tasks, not every step in this cadence is required. For instance,
 
 There are no guidelines for how long each of these tasks should take. Sometimes Feature Discovery could span an entire sprint, if in-depth user research is required. Alternatively, the entire cadence of tasks could happen in a matter of days if the design estimates the work to take that long.
 
-###The How and When of Sprint Planning
+### The How and When of Sprint Planning
 
 A sprint should be fully ticketed and prioritized prior to your ‘Sprint Planning Day’, when the task assignment, planning poker and commitment meetings occur. Ideally, sprints are ticketed and prioritized far in advance of that day, so developers and designers have a chance to review tickets and provide feedback.
 
