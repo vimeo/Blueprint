@@ -2,7 +2,7 @@
 
 aka **How We Collaborate** :zap:
 
-##Contents
+## Contents
 
 [Overview](#overview)  
 [Why Process?](#why-process)  
@@ -14,18 +14,18 @@ aka **How We Collaborate** :zap:
 [Notes](#notes)  
 [Contributors](#contributors)  
 
-##Overview
+## Overview
 
 This document is an overview of the [Vimeo Mobile and TV Group's](#notes)<sup>1</sup> product development process (a process based on [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) and [agile](https://en.wikipedia.org/wiki/Agile_software_development) methodologies). It describes [why process](#why-process) is important and outlines five aspects of our process: [team](#team), [workflow](#workflow), [sprints](#sprints), [velocity tracking](#velocity-tracking) and the [exchange program](#exchange-program). This document focuses on high-level guidelines rather than specific implementation tactics in order to leave room for teams to apply them as they see fit. 
 
-##Why Process?
+## Why Process?
 
 Process helps us to:
  
 1. Produce high quality work at a predictable [pace](#notes)<sup>2</sup>, 
 2. Promote the development of an extraordinary team.
  
-##Team
+## Team
  
 A product team is a co-located, cross-functional group of roughly 4-7 people who collaborate to bring ideas to life. Proximity builds relationships. Cross-functionality fosters autonomy and self-sufficiency. Limiting team size promotes ownership.
  
@@ -34,7 +34,7 @@ A product team is a co-located, cross-functional group of roughly 4-7 people who
 
 Teams are externally trusted, transparent, and accountable. Teams are internally creative, balanced, and practical. Teams typically include a product manager, designer(s), engineer(s), and a QA representative. Read more about the product manager's core responsibilities [here](/PRODUCT.md).
 
-##Workflow
+## Workflow
  
 Workflow is a structured approach to how a team evolves an idea from inception to production. Teams evolve each idea one function at a time, with each function’s output being the next function’s input. 
 
@@ -51,7 +51,7 @@ These checks and balances help us define problems more accurately. This makes us
 
 We solicit feedback early, ask questions often, and [document and share what we learn](#notes)<sup>3</sup> along the way. 
 
-##Sprints
+## Sprints
  
 Sprints are structured 2-week intervals at which a team executes the above workflow to evolve ideas. Sprints help teams establish [pace](#notes)<sup>2</sup>. Pace is valuable because it allows us to predict how long projects will take in the short and long term. 
  
@@ -75,7 +75,7 @@ After finishing a sprint we hold a retrospective to discuss what went well, what
 
 The following sections provide more detail on specific phases of sprint planning mentioned above. 
 
-##Task Estimation 
+## Task Estimation 
 
 Each task requires an estimated point value based on time, complexity, and unknowns. Ensuring tickets are broken down into sensible, actionable chunks can reduce unknowns and allow the team to point a ticket based on the task’s time and complexity. A good scale to use for point values is the fibonacci sequence (1, 2, 3, 5, 8, 13) [because it reflects that uncertainty on how to execute a task increases with task size](http://www.scrum-institute.org/Effort_Estimations_Planning_Poker.php).
 
@@ -158,20 +158,20 @@ Task estimation is a difficult process but it naturally improves across sprints 
 
 Velocity tracking helps keep workloads at a reasonable amount. After tracking velocity for a few sprints a team should see a considerable improvement in comfort (i.e. committing to just the right amount of work), predictability, and consistency.
 
-##Exchange Program
+## Exchange Program
 
 In order to promote personal growth and inter-team knowledge transfer we offer an engineering exchange program. An exchange is a single or multi-sprint-long period where an engineer from another group can contribute to one of our projects in a structured way. This is an opportunity for exchange participants to learn new platforms, languages, and team processes.
 
 When someone participates in an exchange they are paired up with a member of the team that's working on the project that they'll be contributing to. This point-person helps them get set up and provides guidance and mentorship during the exchange. Exchange participants attend all sprint planning meetings, daily scrum, and sprint retrospective.
 
-##Notes
+## Notes
 
 1. At the time of writing, the Vimeo Mobile & TV Group is comprised of roughly 20 people. 
 2. To track velocity, we use [Pace-iOS](https://github.com/vimeo/Pace-iOS) and [Pace-Android](https://github.com/vimeo/Pace-Android) (both coming soon).
 3. We use Confluence for most documentation, but any wiki-like tool will do.
 4. We use Jira for task management, but tools like Trello, Zenhub, or a simple whiteboard or post-it note wall will work.
 
-##Contributors
+## Contributors
 
 Ryan Casey    
 Brian Cooper   
